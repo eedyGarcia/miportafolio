@@ -1,0 +1,18 @@
+.bienvenida-container{
+    background-color:#F7F9FB;
+}
+.circlePhoto{
+    margin:auto;
+    margin-top:50px;
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 300px 300px 300px 300px;
+    border-radius: 300px 300px 300px 300px;
+    background-color:#11294A;
+    background-image:url(src/assets/img/perfilEGD.png);
+    background-size:180px;
+    background-repeat:no-repeat;
+    background-position: -5px bottom;
+    -webkit-box-shadow: 3px 5px 20px -10px #080808;
+    box-shadow: 3px 5px 20px -10px #080808;
+}
