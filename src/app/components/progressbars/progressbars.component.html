@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Habilidades técnicas</h2>
+        </div>
+
+        <div class="col-md-4 my-3">
+            <b>FrontEnd</b>
+            <div class="px-5">
+                <div *ngFor="let hab of habilidades">
+                    <div class="habilidad my-2" *ngIf="hab.tipo=='frontend'">
+                        {{hab.habilidad}}
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:{{hab.porcentaje}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{hab.porcentaje}}%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-3">
+            <b>BackEnd</b>
+            <div class="px-5">
+                <div *ngFor="let hab of habilidades">
+                    <div class="habilidad my-2" *ngIf="hab.tipo=='backend'">
+                        {{hab.habilidad}}
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:{{hab.porcentaje}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{hab.porcentaje}}%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-3">
+            <b>Administración, Arquitectura y Otros</b>
+            <div class="px-5">
+                <div *ngFor="let hab of habilidades">
+                    <div class="habilidad my-2" *ngIf="hab.tipo=='gestion2'">
+                        {{hab.habilidad}}
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:{{hab.porcentaje}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{hab.porcentaje}}%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-2"></div>
+                <div *ngFor="let hab of habilidades">
+                    <div class="habilidad my-2" *ngIf="hab.tipo=='gestion1'">
+                        {{hab.habilidad}}
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:{{hab.porcentaje}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">{{hab.porcentaje}}%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

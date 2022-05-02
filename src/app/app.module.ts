@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
+import { ProgressbarsComponent } from './components/progressbars/progressbars.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    BienvenidaComponent,
+    ProgressbarsComponent
   ],
   imports: [
     BrowserModule,
