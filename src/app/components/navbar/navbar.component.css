@@ -15,4 +15,9 @@
         padding-top:.5rem;
         padding-bottom:.5rem;
     }
+    .navbar-brand {
+        margin-right: auto !important;
+        margin-left: auto !important;
+        letter-spacing: 2px;
+    }
 }
