@@ -1,0 +1,18 @@
+.footer{
+    background-color:#11294A;
+    color:white;
+    margin-top:200px;
+}
+.footer a,
+.footer a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li{
+    margin-top:5px;
+    margin-bottom:5px;
+}
