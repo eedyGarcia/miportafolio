@@ -1,3 +1,4 @@
+import { IfStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -10,6 +11,7 @@ export class BienvenidaComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

@@ -13,6 +13,10 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { BlogComponent } from './components/blog/blog.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CuoteComponent } from './components/cuote/cuote.component';
+import { PortafolioHomeComponent } from './components/portafolio-home/portafolio-home.component';
+import { BlogHomeComponent } from './components/blog-home/blog-home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PostComponent } from './components/post/post.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +30,15 @@ import { CuoteComponent } from './components/cuote/cuote.component';
     PortafolioComponent,
     BlogComponent,
     FooterComponent,
-    CuoteComponent
+    CuoteComponent,
+    PortafolioHomeComponent,
+    BlogHomeComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

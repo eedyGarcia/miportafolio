@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~animate.css/animate.min';
 *{
-    /* font-weight: 300; */
+	line-height: 1.5;
 }
-a{
-    text-decoration: none;
+a,a:hover{
+    text-decoration: none !important;
 }
 b{
     font-weight: 700 !important;
@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5{
 }
 
 .bienvenida-container{
-    background-color:#F7F9FB;
+    background-color:#EFF2FA;
 }
 
 .img-inline{
@@ -60,28 +60,28 @@ h1,h2,h3,h4,h5{
 	line-height:1rem
 }
 .rounded-5{
-	-webkit-border-radius: 5px 5px 5px 5px;
-	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px !important;
+	border-radius: 5px 5px 5px 5px !important;
 }
 .rounded-10{
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px !important;
+	border-radius: 10px 10px 10px 10px !important;
 }
 .rounded-15{
-	-webkit-border-radius: 15px 15px 15px 15px;
-	border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px !important;
+	border-radius: 15px 15px 15px 15px !important;
 }
 .rounded-20{
-	-webkit-border-radius: 20px 20px 20px 20px;
-	border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px !important;
+	border-radius: 20px 20px 20px 20px !important;
 }
 .rounded-25{
-	-webkit-border-radius: 25px 25px 25px 25px;
-	border-radius: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px 25px 25px 25px !important;
+	border-radius: 25px 25px 25px 25px !important;
 }
 .rounded-30{
-	-webkit-border-radius: 30px 30px 30px 30px;
-	border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px !important;
+	border-radius: 30px 30px 30px 30px !important;
 }
 
 
@@ -124,6 +124,41 @@ h1,h2,h3,h4,h5{
 	-webkit-border-radius: 30px 30px 0 0;
 	border-radius: 30px 30px 0 0;
 }
+
+
+
+
+.card.rounded-5 .card-img-top{
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.card.rounded-10 .card-img-top{
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+
+.card.rounded-15 .card-img-top{
+	-webkit-border-radius: 15px 15px 0 0;
+	border-radius: 15px 15px 0 0;
+}
+
+.card.rounded-20 .card-img-top{
+	-webkit-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+}
+
+.card.rounded-25 .card-img-top{
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 25px 25px 0 0;
+}
+
+.card.rounded-30 .card-img-top{
+	-webkit-border-radius: 30px 30px 0 0;
+	border-radius: 30px 30px 0 0;
+}
+
+
 
 
 .card.rounded-5 .card-footer{
@@ -193,3 +228,28 @@ h1,h2,h3,h4,h5{
 .cursor-pointer{
     cursor:pointer;
 }
+
+.btnEduardo{
+    border:2px solid #11294A !important;
+    color:#11294A !important;
+    font-weight: 700 !important;
+}
+.bg-blue{
+	background-color:#11294A;
+}
+
+.xtraSmallImageBlog{
+	max-width:100px !important;
+  }
+  .smallImageBlog{
+	max-width:200px !important;
+  }
+  .mediumImageBlog{
+	max-width:300px !important;
+  }
+  .largeImageBlog{
+	max-width:600px !important;
+  }
+  .xtraLargeImageBlog{
+	max-width:920px !important;
+  }

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { BlogCategoriasService } from '../../services/blog-categorias.service';
+
 
 @Component({
   selector: 'blog',
@@ -6,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-
-  constructor() { }
+  public categorias:Array<any> = [];
+  constructor(
+    private BlogCategoriasService:BlogCategoriasService
+  ) {
+    this.BlogCategoriasService.getCategorias().subscribe((resp:any)=>{
+      this.categorias = resp.data;
+    })
+  }
 
   ngOnInit(): void {
   }

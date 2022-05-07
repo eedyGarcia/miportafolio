@@ -1,5 +1,10 @@
 .navbar.bg-dark{
-    background-color:#11294A !important;
+    background-color:#11294AEE !important;
+    backdrop-filter: blur(3px);
+}
+.bg-light{
+    background-color:#F8F9FAAA !important;
+    backdrop-filter: blur(3px);
 }
 .navbar-toggler{
     border:none;
@@ -8,6 +13,12 @@
     text-decoration: none;
     outline: 0;
     box-shadow: none;
+}
+.navbar .nav-item .nav-link{
+    font-weight: 700;
+}
+.navbar .nav-item .nav-link:hover{
+    color:#3189F9;
 }
 
 @media(max-width:991px){
@@ -19,5 +30,12 @@
         margin-right: auto !important;
         margin-left: auto !important;
         letter-spacing: 2px;
+    }
+}
+
+@media(min-width:992px){
+    .navbar .nav-item{
+        padding-left:15px;
+        padding-right:15px;
     }
 }
