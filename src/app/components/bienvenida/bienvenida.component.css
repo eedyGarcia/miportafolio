@@ -43,16 +43,24 @@
 .labelF-01{
     left:-100px;
     top:130px;
-    animation: float 6s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
 }
 .labelF-02{
-    right:-100px;
+    right:-110px;
     top:50px;
     animation: float 10s ease-in-out infinite;
+}
+.labelF-03{
+    right:-80px;
+    top:150px;
+    animation: float 15s ease-in-out infinite;
 }
 @media(min-width:600px){
     .labelF-01{
         left:-120px;
+    }
+    .labelF-02{
+        right:-120px;
     }
     .labelF-02{
         right:-120px;

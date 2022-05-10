@@ -1,4 +1,4 @@
-<div class="container-fluid bienvenida-container mt-5 py-5">
+<div class="container-fluid mt-5 py-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -102,17 +102,21 @@
                 </ul>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- <div class="container pt-5">
-            <div class="row justify-content-center">
-                <div class="col-md-12">
-                    <hr>
-                </div>
-                <div class="col-md-8 mt-5 text-center">
-                    <h3>¿Te gustaría conocer más sobre mi trabajo?</h3>
-                    <a href="portafolio/" class="btn btnEduardo mt-4">Ver portafolio</a>
-                </div>
+<div class="container my-5 pb-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h3>Mis combinaciones de Stack</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="logoDev" *ngFor="let logo of logosDev">
+                <img [src]="logo.imagen" class="img-fluid">
+                <div class="logoDevText">{{logo.nombre}}</div>
             </div>
-        </div> -->
+        </div>
     </div>
 </div>

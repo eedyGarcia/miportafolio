@@ -6,10 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
 import { ProgressbarsComponent } from './components/progressbars/progressbars.component';
-import { ActividadesComponent } from './components/actividades/actividades.component';
 import { AcercaDeMiComponent } from './components/acerca-de-mi/acerca-de-mi.component';
 import { InicioComponent } from './components/inicio/inicio.component';
-import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CuoteComponent } from './components/cuote/cuote.component';
@@ -24,10 +22,8 @@ import { PostComponent } from './components/post/post.component';
     NavbarComponent,
     BienvenidaComponent,
     ProgressbarsComponent,
-    ActividadesComponent,
     AcercaDeMiComponent,
     InicioComponent,
-    PortafolioComponent,
     BlogComponent,
     FooterComponent,
     CuoteComponent,
